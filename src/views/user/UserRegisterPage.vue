@@ -55,11 +55,11 @@ import { useRouter } from "vue-router";
 
 const router = useRouter();
 
-const form = reactive({
+const form: API.UserRegisterRequest = reactive({
   userAccount: "",
   userPassword: "",
   checkPassword: "",
-} as API.UserRegisterRequest);
+});
 
 /**
  * 提交

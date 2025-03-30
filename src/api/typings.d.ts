@@ -751,7 +751,7 @@ declare namespace API {
     userId?: number;
   };
 
-  type UserLoginRequest = {
+  export type UserLoginRequest = {
     userAccount?: string;
     userPassword?: string;
   };
