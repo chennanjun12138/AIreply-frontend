@@ -43,7 +43,6 @@
           <a-image width="100%" :src="data.appIcon" />
         </a-col>
       </a-row>
-      {{ data }}
     </a-card>
   </div>
 </template>
